@@ -1,0 +1,122 @@
+2021-06-17 21:56:49.585 3120  -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: OS version: Darwin 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64
+2021-06-17 21:56:49.587 3120  -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Host application: Visual Studio Code(1.50.1)
+2021-06-17 21:56:49.589 3120  -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.7.51.0
+2021-06-17 21:57:43.582 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 21:58:16.337 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Operation canceled
+Type: System.Net.Sockets.SocketException
+	Stack trace
+	   at System.Net.Sockets.Socket.Send(ReadOnlySpan`1 buffer, SocketFlags socketFlags)
+	   at MySqlConnector.Utilities.SocketExtensions.Send(Socket socket, ReadOnlyMemory`1 data, SocketFlags flags) in /_/src/MySqlConnector/Utilities/SocketExtensions.cs:line 40
+	   at MySqlConnector.Protocol.Serialization.SocketByteHandler.WriteBytesAsync(ReadOnlyMemory`1 data, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/SocketByteHandler.cs:line 116
+	--- End of stack trace from previous location where exception was thrown ---
+	   at MySqlConnector.Protocol.Serialization.ProtocolUtility.<WritePacketAsync>g__WritePacketAsyncAwaited|8_0(ValueTask`1 task_, Byte[] buffer_) in /_/src/MySqlConnector/Protocol/Serialization/ProtocolUtility.cs:line 547
+	   at MySqlConnector.Core.ServerSession.SendReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 834
+	   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+	   at MySqlConnector.MySqlCommand.ExecuteReader() in /_/src/MySqlConnector/MySqlCommand.cs:line 105
+	   at ApexSQL.VSC.Core.MySqlServerConnection.<>c__DisplayClass9_0.<ExecuteQuery>b__0(String statement) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 69
+	   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+	   at ApexSQL.VSC.Core.MySqlServerConnection.ExecuteQuery(String query) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Common\Classes\MySqlServerConnection.cs:line 63
+
+2021-06-17 22:02:07.344 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:02:17.479 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:02:25.049 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:02:45.462 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:02:49.001 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:02:52.767 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:26:39.389 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 22:34:45.081 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-17 23:35:13.778 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-18 00:13:16.350 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-18 00:14:00.040 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Object reference not set to an instance of an object.
+Type: System.NullReferenceException
+	Stack trace
+	   at ApexSQL.VSC.Complete.Cache.HintCache.LoadHints(Guid connectionId, String database) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Complete\Cache\HintCache.cs:line 141
+
+2021-06-18 00:14:02.962 3120  -1     ERROR [VSCPWRTOOLS: 2020.7.51.0]: An exception occurred
+Connect Timeout expired.
+Type: MySqlConnector.MySqlException
+	Stack trace
+	   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 850
+	   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+	   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 365
+	   at ApexSQL.VSC.Core.Helpers.ScriptGeneratorHelper.GetUpdateScript(TreeItem node, ConnectionInfo connectionInfo) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Common\Helpers\ScriptGeneratorHelper.cs:line 54
+	   at ApexSQL.VSC.Core.ScriptGenerator.GetSnippet(CreateScriptRequest request) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Common\Classes\ScriptGenerator.cs:line 90
+	   at ApexSQL.VSC.Core.ScriptGenerator.CreateTemporaryScript(CreateScriptRequest request) in E:\Agent\_work\331\s\Projects\ApexSQL.VSC.Common\Classes\ScriptGenerator.cs:line 33
+	Inner exception: The Command Timeout expired before the operation completed.
+	Type: MySqlConnector.MySqlException
+		Stack trace
+		   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/BufferedByteReader.cs:line 36
+		   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPacketAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/ProtocolUtility.cs:line 408
+		   at MySqlConnector.Protocol.Serialization.ProtocolUtility.DoReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/ProtocolUtility.cs:line 466
+		   at MySqlConnector.Protocol.Serialization.StandardPayloadHandler.ReadPayloadAsync(ArraySegmentHolder`1 cache, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/StandardPayloadHandler.cs:line 42
+		   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 782
+		--- End of stack trace from previous location where exception was thrown ---
+		   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 794
+		   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, Int32 startTickCount, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 458
+		   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 142
+		   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 142
+		   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 850
+
+2021-06-19 14:26:56.762 15565 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: OS version: Darwin 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64
+2021-06-19 14:26:56.766 15565 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Host application: Visual Studio Code(1.50.1)
+2021-06-19 14:26:56.768 15565 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.7.51.0
+2021-06-19 15:20:06.574 18632 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: OS version: Darwin 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64
+2021-06-19 15:20:06.577 18632 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Host application: Visual Studio Code(1.50.1)
+2021-06-19 15:20:06.578 18632 -1     INFO  [VSCPWRTOOLS: 2020.7.51.0]: Initializing addin: ApexSQL Database Power Tools for VS Code 2020.7.51.0
